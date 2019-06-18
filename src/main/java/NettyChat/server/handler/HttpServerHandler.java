@@ -59,20 +59,22 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                 Connection connection = DbConnect.dbConnect.getConnect();
                 PreparedStatement ps = connection.prepareStatement(sql);
                 ResultSet resultSet = ps.executeQuery();
-                Map<String, JSONArray> messageMap = new HashMap<>();
+                Map<String, JSONObject> messageMap = new HashMap<>();
                 while (resultSet.next()){
                     String fromId = resultSet.getString("from_id");
                     JSONObject messageObject = new JSONObject();
                     if (messageMap.containsKey(fromId)){
-                        messageObject.put("message", resultSet.getString("message"));
-                        messageObject.put("time", resultSet.getString("time"));
-                        messageMap.get(fromId).add(messageObject);
+                        Timestamp timestamp = resultSet.getTimestamp("time");
+                        if (timestamp.getTime() > messageMap.get(fromId).getTimestamp("time").getTime()){
+                            messageMap.get(fromId).put("time", timestamp);
+                            messageMap.get(fromId).put("message", resultSet.getString("message"));
+                        }
                     }else {
+                        messageObject.put("fromid", fromId);
+                        messageObject.put("username", "shinchan");
                         messageObject.put("message", resultSet.getString("message"));
-                        messageObject.put("time", resultSet.getString("time"));
-                        JSONArray jsonArrayTmp = new JSONArray();
-                        jsonArrayTmp.add(messageObject);
-                        messageMap.put(fromId, jsonArrayTmp);
+                        messageObject.put("time", resultSet.getTimestamp("time"));
+                        messageMap.put(fromId, messageObject);
                     }
                 }
                 Set<String> set = messageMap.keySet();
@@ -80,18 +82,12 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                 JSONArray jsonArrayRes = new JSONArray();
                 while (iterator.hasNext()){
                     String fromId = (String) iterator.next();
-                    JSONObject jsonObjectTmp = new JSONObject();
-                    jsonObjectTmp.put("fromOpenId", fromId);
-                    jsonObjectTmp.put("sendMsg", messageMap.get(fromId));
-                    jsonArrayRes.add(jsonObjectTmp);
+                    jsonArrayRes.add(messageMap.get(fromId));
                 }
                 JSONObject jsonObjectRes = new JSONObject();
-                jsonObjectRes.put("openid", openId);
+                jsonObjectRes.put("error_code",0);
                 jsonObjectRes.put("type", "login");
-                jsonObjectRes.put("offLineMsg", jsonArrayRes);
-                String deleteSql = "DELETE FROM chat_message WHERE to_id = " + openId;
-                PreparedStatement ps1 = connection.prepareStatement(deleteSql);
-                ps1.execute();
+                jsonObjectRes.put("data", jsonArrayRes);
                 FullHttpResponse response = new DefaultFullHttpResponse(
                         HttpVersion.HTTP_1_1, HttpResponseStatus.OK, Unpooled.wrappedBuffer(Serializer.DEFAULT.serialize(jsonObjectRes))
                 );
@@ -107,6 +103,85 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                 ctx.channel().close();
                 ctx.close();
                 System.out.println("关闭channel!");
+            }else if (requestType.equals("wchat")){
+                String fromOpenId = parmMap.get("fromid");
+                String toOpenId = parmMap.get("toid");
+                try {
+                    SessionUtil.bindSession(new Session(fromOpenId), ctx.channel());
+                    System.out.println("["+ fromOpenId +"]登录成功");
+                }catch (Exception e){
+                    System.out.println("登录失败");
+                    return;
+                }
+                JSONObject jsonres = new JSONObject();
+                try {
+                    String sql = "SELECT * FROM chat_message WHERE to_id = " + toOpenId + " AND from_id = " + fromOpenId;
+                    System.out.println(sql);
+                    Connection connection = DbConnect.dbConnect.getConnect();
+                    PreparedStatement ps = connection.prepareStatement(sql);
+                    ResultSet resultSet = ps.executeQuery();
+                    JSONArray jsondata = new JSONArray();
+                    while (resultSet.next()){
+                        JSONObject messageObject = new JSONObject();
+                        messageObject.put("message", resultSet.getString("message"));
+                        messageObject.put("time", resultSet.getString("time"));
+                        jsondata.add(messageObject);
+                    }
+                    jsonres.put("error_code", 0);
+                    jsonres.put("to_id", toOpenId);
+                    jsonres.put("username", "shinchan");
+                    jsonres.put("data", jsondata);
+                    String deleteSql = "DELETE FROM chat_message WHERE to_id = " + toOpenId + " AND from_id = " +fromOpenId;
+                    PreparedStatement ps1 = connection.prepareStatement(deleteSql);
+                    ps1.execute();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    jsonres.put("error_code", 1);
+                }
+                FullHttpResponse response = new DefaultFullHttpResponse(
+                        HttpVersion.HTTP_1_1, HttpResponseStatus.OK, Unpooled.wrappedBuffer(Serializer.DEFAULT.serialize(jsonres))
+                );
+                response.headers().set("Content-Type", "text/html; charset=UTF-8");
+                response.headers().set(CONTENT_LENGTH,
+                        response.content().readableBytes());
+                response.headers().set(CONNECTION, HttpHeaderValues.KEEP_ALIVE);
+                ctx.writeAndFlush(response);
+            }else if (requestType.equals("userchat")){
+                String fromOpenId = parmMap.get("fromid");
+                String toOpenId = parmMap.get("toid");
+                JSONObject jsonres = new JSONObject();
+                try {
+                    String sql = "SELECT * FROM chat_message WHERE to_id = " + toOpenId + " AND from_id = " + fromOpenId;
+                    System.out.println(sql);
+                    Connection connection = DbConnect.dbConnect.getConnect();
+                    PreparedStatement ps = connection.prepareStatement(sql);
+                    ResultSet resultSet = ps.executeQuery();
+                    JSONArray jsondata = new JSONArray();
+                    while (resultSet.next()){
+                        JSONObject messageObject = new JSONObject();
+                        messageObject.put("message", resultSet.getString("message"));
+                        messageObject.put("time", resultSet.getString("time"));
+                        jsondata.add(messageObject);
+                    }
+                    jsonres.put("error_code", 0);
+                    jsonres.put("to_id", toOpenId);
+                    jsonres.put("username", "shinchan");
+                    jsonres.put("data", jsondata);
+                    String deleteSql = "DELETE FROM chat_message WHERE to_id = " + toOpenId + " AND from_id = " +fromOpenId;
+                    PreparedStatement ps1 = connection.prepareStatement(deleteSql);
+                    ps1.execute();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    jsonres.put("error_code", 1);
+                }
+                FullHttpResponse response = new DefaultFullHttpResponse(
+                        HttpVersion.HTTP_1_1, HttpResponseStatus.OK, Unpooled.wrappedBuffer(Serializer.DEFAULT.serialize(jsonres))
+                );
+                response.headers().set("Content-Type", "text/html; charset=UTF-8");
+                response.headers().set(CONTENT_LENGTH,
+                        response.content().readableBytes());
+                response.headers().set(CONNECTION, HttpHeaderValues.KEEP_ALIVE);
+                ctx.writeAndFlush(response);
             }
             //客户端发来聊天信息，进行处理 分别考虑接收方在线和不在线两种情况
             else if(requestType.equals("message")){

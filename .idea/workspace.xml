@@ -1,125 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7cd135a-23b9-4dcf-b99e-7d65f84796dd" name="Default" comment="第一版本">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/resources/background.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/resources/tab.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/resources/titlebar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/resources/titlebar_end.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/commons-logging-1.2-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/libraries/Maven__com_alibaba_druid_1_0_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/libraries/Maven__com_alibaba_fastjson_1_2_54.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/NOTICE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/RELEASE-NOTES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/allclasses-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/allclasses-noframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/constant-values.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/deprecated-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/help-doc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/index-all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/Log.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/LogConfigurationException.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/LogFactory.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/LogSource.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/class-use/Log.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/class-use/LogConfigurationException.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/class-use/LogFactory.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/class-use/LogSource.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/AvalonLogger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/Jdk13LumberjackLogger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/Jdk14Logger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/Log4JLogger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/LogFactoryImpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/LogKitLogger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/NoOpLog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/ServletContextCleaner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/SimpleLog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/WeakHashtable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/AvalonLogger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/Jdk13LumberjackLogger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/Jdk14Logger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/Log4JLogger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/LogFactoryImpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/LogKitLogger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/NoOpLog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/ServletContextCleaner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/SimpleLog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/class-use/WeakHashtable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/impl/package-use.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/org/apache/commons/logging/package-use.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/overview-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/overview-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/overview-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/package-list" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/serialized-form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/commons-logging-1.2/apidocs/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/comshinchan.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/Test/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/attribute/Attributes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/FirstClientHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/NettyClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/NewClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/handler/LoginResponseHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/handler/MessageResponseHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/codec/PacketDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/codec/PacketEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/codec/Spliter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/command/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/mysql/DbConnect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/protocol/OffLineMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/protocol/Packet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/protocol/PacketCodeC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/protocol/request/LoginRequestPacket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/protocol/request/MessageRequestPacket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/protocol/response/LoginResponsePacket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/protocol/response/MessageResponsePacket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/protocol/response/OffLineMessagePacket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/serialize/Serializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/serialize/SerializerAlgorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/serialize/impl/JsonSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/FirstServerHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/NettyServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/AuthHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/HttpServerHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/LoginRequestHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/MessageRequestHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/session/Session.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/util/LoginUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/util/SessionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/ChatClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/ChatManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/ChatServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/ChatSocket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/NettyClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/NettyServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/chat/ServerListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../comshinchan/src/test/java/chat/AppTest.java" />
+    <list default="true" id="d7cd135a-23b9-4dcf-b99e-7d65f84796dd" name="Default" comment="完成四个接口">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../comshinchan/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../comshinchan/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/HttpServerHandler.java" afterPath="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/HttpServerHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../comshinchan/out/" />
     <ignored path="$PROJECT_DIR$/../comshinchan/target/" />
@@ -130,49 +14,45 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="NewClient.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/NewClient.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="318">
-                    <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#1814#2437#0" expanded="true" />
-                      <element signature="e#2436#2437#0" expanded="true" />
-                      <element signature="method#connect#0;class#NewClient#0" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/NettyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="405">
               <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpClientHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpServerHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/HttpServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="87" column="50" lean-forward="true" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1560825417359" expanded="true" signature="2191:2232" ph="SELECT * FRO... chat_message" />
+                <marker date="1560825417359" expanded="true" signature="5527:5599" ph="SELECT * FRO... chat_message" />
+                <marker date="1560825417359" expanded="true" signature="6540:6579" ph="DELETE FROM " />
+                <marker date="1560825417359" expanded="true" signature="6540:6599" ph="DELETE FROM " />
+                <marker date="1560825417359" expanded="true" signature="6540:6609" ph="DELETE FROM " />
+                <marker date="1560825417359" expanded="true" signature="6540:6610" ph="DELETE FROM " />
+                <marker date="1560825417359" expanded="true" signature="7720:7792" ph="SELECT * FRO... chat_message" />
+                <marker date="1560825417359" expanded="true" signature="8733:8803" ph="DELETE FROM " />
+                <marker date="1560825417359" expanded="true" signature="11379:11451" ph="INSERT INTO chat_message... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClientHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/handler/HttpClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="268">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,8 +139,8 @@
         <option value="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/util/SessionUtil.java" />
         <option value="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/NettyClient.java" />
         <option value="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/handler/HttpClientHandler.java" />
-        <option value="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/HttpServerHandler.java" />
         <option value="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/NewClient.java" />
+        <option value="$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/HttpServerHandler.java" />
       </list>
     </option>
   </component>
@@ -416,6 +296,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comshinchan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comshinchan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NettyChat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1090,7 +1004,7 @@
       <workItem from="1559050849691" duration="15391000" />
       <workItem from="1559181506759" duration="14882000" />
       <workItem from="1559445782538" duration="62154000" />
-      <workItem from="1560059658315" duration="14976000" />
+      <workItem from="1560059658315" duration="19538000" />
     </task>
     <task id="LOCAL-00001" summary="第一版本">
       <created>1560782637989</created>
@@ -1099,11 +1013,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560782637989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1版本">
+      <created>1560783633686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560783633686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143373000" />
+    <option name="totallyTimeSpent" value="147935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1111,19 +1032,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.4975" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281046" sideWeight="0.4975" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3093995" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30849674" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1147,7 +1068,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一版本" />
+    <MESSAGE value="v1版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1160,17 +1082,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/AuthHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/attribute/Attributes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,6 +1094,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,6 +1102,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,6 +1132,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1405">
           <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,6 +1165,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="false" />
+            <element signature="e#576#577#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,6 +1177,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#557#558#0" expanded="false" />
+            <element signature="e#597#598#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,6 +1188,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="22" column="51" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1559530879716" expanded="true" signature="439:511" ph="INSERT INTO chat_message... " />
+            <marker date="1559530879716" expanded="true" signature="1034:1074" ph="SELECT * FRO... chat_message" />
+            <marker date="1559530879716" expanded="true" signature="1034:1083" ph="SELECT * FRO... chat_message" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1278,6 +1212,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,6 +1268,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-297">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1378,6 +1314,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1410,6 +1352,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="44" selection-end-column="35" />
+          <folding>
+            <marker date="1559703969144" expanded="true" signature="1726:1798" ph="INSERT INTO chat_message... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1425,6 +1370,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,6 +1378,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,6 +1386,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="31" />
+          <folding>
+            <marker date="1559638193099" expanded="true" signature="1480:1501" ph="select * fro... tb_user" />
+            <marker date="1559638193099" expanded="true" signature="1530:1571" ph="SELECT * FRO... char_message" />
+            <marker date="1559638193099" expanded="true" signature="2432:2471" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1504,19 +1456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/HttpServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="137" column="112" lean-forward="true" selection-start-line="137" selection-start-column="112" selection-end-line="137" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1559745819264" expanded="true" signature="2191:2232" ph="SELECT * FRO... chat_message" />
-            <marker date="1559745819264" expanded="true" signature="4208:4247" ph="DELETE FROM " />
-            <marker date="1559745819264" expanded="true" signature="6927:6999" ph="INSERT INTO chat_message... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../comshinchan/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
@@ -1535,7 +1474,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="405">
           <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding />
         </state>
@@ -1543,8 +1482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/NewClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
+        <state relative-caret-position="241">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1814#2437#0" expanded="true" />
@@ -1554,12 +1493,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/client/handler/HttpClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="268">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../comshinchan/src/main/java/NettyChat/server/handler/HttpServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="87" column="50" lean-forward="true" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1560825417359" expanded="true" signature="2191:2232" ph="SELECT * FRO... chat_message" />
+            <marker date="1560825417359" expanded="true" signature="5527:5599" ph="SELECT * FRO... chat_message" />
+            <marker date="1560825417359" expanded="true" signature="6540:6579" ph="DELETE FROM " />
+            <marker date="1560825417359" expanded="true" signature="6540:6599" ph="DELETE FROM " />
+            <marker date="1560825417359" expanded="true" signature="6540:6609" ph="DELETE FROM " />
+            <marker date="1560825417359" expanded="true" signature="6540:6610" ph="DELETE FROM " />
+            <marker date="1560825417359" expanded="true" signature="7720:7792" ph="SELECT * FRO... chat_message" />
+            <marker date="1560825417359" expanded="true" signature="8733:8803" ph="DELETE FROM " />
+            <marker date="1560825417359" expanded="true" signature="11379:11451" ph="INSERT INTO chat_message... " />
           </folding>
         </state>
       </provider>
