@@ -55,7 +55,8 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                     System.out.println("登录失败");
                     return;
                 }
-                String sql = "SELECT * FROM chat_message WHERE to_id = " + openId;
+                String sql = "SELECT * FROM chat WHERE to_id = '" + openId + "'";
+                System.out.println(sql);
                 Connection connection = DbConnect.dbConnect.getConnect();
                 PreparedStatement ps = connection.prepareStatement(sql);
                 ResultSet resultSet = ps.executeQuery();
@@ -87,6 +88,7 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                 JSONObject jsonObjectRes = new JSONObject();
                 jsonObjectRes.put("error_code",0);
                 jsonObjectRes.put("type", "login");
+                jsonObjectRes.put("openid", openId);
                 jsonObjectRes.put("data", jsonArrayRes);
                 FullHttpResponse response = new DefaultFullHttpResponse(
                         HttpVersion.HTTP_1_1, HttpResponseStatus.OK, Unpooled.wrappedBuffer(Serializer.DEFAULT.serialize(jsonObjectRes))
@@ -115,7 +117,7 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                 }
                 JSONObject jsonres = new JSONObject();
                 try {
-                    String sql = "SELECT * FROM chat_message WHERE to_id = " + toOpenId + " AND from_id = " + fromOpenId;
+                    String sql = "SELECT * FROM chat WHERE to_id = '" + toOpenId + "' AND from_id = '" + fromOpenId + "'";
                     System.out.println(sql);
                     Connection connection = DbConnect.dbConnect.getConnect();
                     PreparedStatement ps = connection.prepareStatement(sql);
@@ -131,7 +133,7 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                     jsonres.put("to_id", toOpenId);
                     jsonres.put("username", "shinchan");
                     jsonres.put("data", jsondata);
-                    String deleteSql = "DELETE FROM chat_message WHERE to_id = " + toOpenId + " AND from_id = " +fromOpenId;
+                    String deleteSql = "DELETE FROM chat WHERE to_id = '" + toOpenId + "' AND from_id = '" +fromOpenId + "'";
                     PreparedStatement ps1 = connection.prepareStatement(deleteSql);
                     ps1.execute();
                 }catch (Exception e){
@@ -151,7 +153,7 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                 String toOpenId = parmMap.get("toid");
                 JSONObject jsonres = new JSONObject();
                 try {
-                    String sql = "SELECT * FROM chat_message WHERE to_id = " + toOpenId + " AND from_id = " + fromOpenId;
+                    String sql = "SELECT * FROM chat WHERE to_id = '" + toOpenId + "' AND from_id = '" + fromOpenId + "'";
                     System.out.println(sql);
                     Connection connection = DbConnect.dbConnect.getConnect();
                     PreparedStatement ps = connection.prepareStatement(sql);
@@ -167,7 +169,7 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                     jsonres.put("to_id", toOpenId);
                     jsonres.put("username", "shinchan");
                     jsonres.put("data", jsondata);
-                    String deleteSql = "DELETE FROM chat_message WHERE to_id = " + toOpenId + " AND from_id = " +fromOpenId;
+                    String deleteSql = "DELETE FROM chat WHERE to_id = '" + toOpenId + "' AND from_id = '" +fromOpenId + "'";
                     PreparedStatement ps1 = connection.prepareStatement(deleteSql);
                     ps1.execute();
                 }catch (Exception e){
@@ -210,7 +212,7 @@ public class HttpServerHandler extends ChannelInboundHandlerAdapter{
                     //离线存储
                     try {
                         Connection connection = DbConnect.dbConnect.getConnect();
-                        String sql = "INSERT INTO chat_message (from_id, to_id, message, time) VALUES(?,?,?,?)";
+                        String sql = "INSERT INTO chat (from_id, to_id, message, time) VALUES(?,?,?,?)";
                         PreparedStatement ps = connection.prepareStatement(sql);
                         ps.setString(1, fromOpenId);
                         ps.setString(2, toOpenId);

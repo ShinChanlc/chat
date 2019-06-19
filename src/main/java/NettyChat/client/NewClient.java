@@ -1,16 +1,8 @@
 package NettyChat.client;
 
 import NettyChat.client.handler.HttpClientHandler;
-import NettyChat.client.handler.LoginResponseHandler;
-import NettyChat.client.handler.MessageResponseHandler;
-import NettyChat.codec.PacketDecoder;
-import NettyChat.codec.PacketEncoder;
-import NettyChat.codec.Spliter;
-import NettyChat.protocol.request.LoginRequestPacket;
-import NettyChat.protocol.request.MessageRequestPacket;
 import NettyChat.util.SessionUtil;
 import io.netty.bootstrap.Bootstrap;
-import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -34,7 +26,7 @@ import java.util.Scanner;
  */
 public class NewClient {
     private static final int MAX_RETRY = 5;
-    private static final String HOST = "127.0.0.1";
+    private static final String HOST = "47.111.11.246";
     private static final int PORT = 12345;
 
     public static void main(String[] args) throws Exception{
@@ -113,7 +105,7 @@ public class NewClient {
                     waitForLoginResponse();
                 }else{
                     System.out.println("输入消息发送至服务端: ");
-                    Integer toUserId = sc.nextInt();
+                    String toUserId = sc.next();
                     String message = sc.nextLine();
                     System.out.println(message);
                     try {

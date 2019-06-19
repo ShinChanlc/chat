@@ -29,10 +29,14 @@ public class DbConnect {
         try {
             if (dataSource == null){
                 dataSource = new DruidDataSource();
-                dataSource.setUrl("jdbc:mysql://10.105.242.49:3306/face_mysql?characterEncoding=utf-8");
+                dataSource.setUrl("jdbc:mysql://localhost:3306/redface?characterEncoding=utf-8&useSSL=false");
                 dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-                dataSource.setUsername("shinchan");
-                dataSource.setPassword("shinchan");
+                dataSource.setUsername("root");
+                dataSource.setPassword("070508");
+//                dataSource.setUrl("jdbc:mysql://10.105.242.49:3306/face_mysql?characterEncoding=utf-8&useSSL=false");
+//                dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+//                dataSource.setUsername("shinchan");
+//                dataSource.setPassword("shinchan");
                 dataSource.setInitialSize(1);
                 dataSource.setMinIdle(1);
                 dataSource.setMaxActive(20);
